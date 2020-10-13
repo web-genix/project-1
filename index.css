@@ -485,10 +485,10 @@ label span {
 
 @media screen and (max-width: 768px) {
     #main1{
-	 font-size:100%;   
-    }
-     #main1{
 	 font-size:80%;   
+    }
+     #main2{
+	 font-size:60%;   
     }
     .comppart {
         width: 100%;

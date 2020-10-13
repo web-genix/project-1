@@ -533,4 +533,97 @@ label span {
         margin-left: 10%;
         margin-right: 10%;
     }
+.comppart{
+	width:100%;
+	text-align:center;
+	float:left;
+	margin-left:2.5%;
+	margin-top:4%;
+}
+.card{
+	
+	boreder:solid 20px #fff;
+	text-align:center;
+	float:left;
+}
+.cardt{
+	margin:0 auto;
+	text-align:center;	
+	margin-bottom:4%;
+	float:left;
+}
+#lowermargin{
+	margin-bottom:8%;
+}
+#look{
+	width:100%;
+	margin:0 auto;
+	margin-left:2.5%;
+	margin-bottom:7%;
+}
+#lookm{
+	font-size:180%;
+	-webkit-text-stroke-width: 1px;
+}
+#call{
+	font-size:140%;
+}
+#look #quote{
+	font-size:70%;
+	-webkit-text-stroke-width: 0.5px;
+}
+#look #quote,#call,#lookm{
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	margin-top:2%;
+}
+#dark{
+	width:100%;
+}
+#benefith{
+	text-align:center;
+	margin-left:2%;
+	margin-right:2%;
+	font-size:200%;	
+}
+#benefitc{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:8%;
+}
+#list{
+	display:block;
+	width:100%;
+	
+}
+#choose{
+	margin-top:650px;
+	text-align:center;
+	margin-left:5%;
+	width:95%;
+}
+#chooseh{
+	font-size:120%;
+	-webkit-text-stroke-width: 0.8px;
+	margin-bottom:9%;
+}
+.partof3{
+	width:30%;
+	margin-bottom:8%;
+}
+.chooseh1{
+	font-size:120%;
+	-webkit-text-stroke-width: 0.1px;
+}
+.chooseh2{
+	font-size:100%;
+	-webkit-text-stroke-width: 0.1px;
+}
+#choose #quote{
+	font-size:65%;;
+}
 }

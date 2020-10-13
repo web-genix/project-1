@@ -1,0 +1,314 @@
+body{
+	background-image:url('images/medicine-pharmacy-pharmacology-banner-medication-drug-bottles-pills-icons-vector-illustration-98202567.jpg');
+	overflow-x:hidden;
+	background-size:230vh;
+	background-repeat:no-repeat;
+	font-size:100%;
+}
+#mynav{
+	background:#000;
+	opacity:0.8;
+	z-index:1;
+}
+#white{
+	color:#fff;
+	font-family:"Trebuchet MS";
+	opacity:1;
+	margin-right:10px;
+	font-style:oblique;
+}
+#Title{
+	color:#fff;
+	font-weight:bold;
+	opacity:1;
+	font-size:150%;
+	margin-right:30%;
+	margin-left:2%;
+	text-shadow: 2px 2px grey;
+}
+.navbar-toggler{
+	color:white;
+	z-index:1;	
+}
+#dark{
+	height:71.7vh;
+	width:100vw;
+	z-index:0;
+}
+#get{
+	background-color:transparent;
+	position:absolute;
+	top:290px;
+	border-radius:10px;
+	border:solid 3px #fff;
+	color:white;
+	left:7%;
+	font-size:110%;
+}
+#get:hover{
+	background:#000;
+}
+#main1{
+	font-family:"Times new roman";
+	font-size: 200%;
+	font-weight:bold;
+	color:#fff;
+	position:absolute;
+	top:170px;
+	left:8%;
+}
+#main2{
+	font-family:"Trebuchet MS";
+	font-size:130%;
+	color:#fff;
+	position:absolute;
+	top:222px;
+	font-weight:bold;
+	left:8%;
+}
+.cardcomp{
+	display:inline-block;
+	margin-top:4%;
+}
+.comppart{
+	display:inline-block;
+	width:28%;
+	margin:0 auto;
+	margin-left:4%;
+	float:left;
+}
+.card{
+	border-radius:0px;
+	width:100%;
+	border:0;
+}		
+.cardt{
+	
+	width:100%;
+	font-family:"Trebuchet MS";
+	background-color:#F1F1F1;
+	margin-top:7.14%;
+	padding:14.28%;
+	
+}
+.cardh{
+	font-family:verdana;
+	font-weight:bold;
+	color:#000;
+	margin-bottom:10%;
+	font-size:220%;
+	line-height:120%;
+}
+.cardh:hover{
+	color:#ffe827;
+	-webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    	-ms-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+   	transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+.info{
+	margin-top:30px;
+	color:#000;
+	font-family:"Trebuchet MS",verdana;
+}
+.arrow{
+	margin-left:5px;
+	width:5%;
+}
+.info:hover{
+	color:#ffe827;
+	text-decoration:none;
+	-webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+	-ms-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+        transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+.info:hover .arrow{
+	color:#ffe827;
+}	
+#look{
+	background:#ffe827;
+	width:85%;	
+	margin:0 auto;
+	margin-top:4%;;
+	margin-bottom:4%;
+}
+#lookm{
+	font-size:400%;
+	font-family:"Trebuchet MS",verdana;
+	margin-left:7%;
+	padding-top:4%; 
+	-webkit-text-stroke-width: 2px;
+	line-height:110%;
+}
+#line{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	color:#000;
+	border:solid 4px #000;
+	margin-top:3%;
+}
+#call{
+	font-size:180%;
+	font-family:"Trebuchet MS",verdana;
+	-webkit-text-stroke-width: 1px;
+	margin-left:7%;
+	margin-top:3%;
+	padding-bottom:3%;
+}
+#quote{
+	background:#332727;
+	color:#ffe827;
+	margin-left:35%;
+	font-size:70%;
+	padding:1%;
+	border:0;
+	
+}
+#quote:hover{
+	background:#ffe827;
+	color:#332727;
+}
+#benefith{
+	text-align:center;
+	font-family:"Trebuchet MS",verdana;
+	-webkit-text-stroke-width: 1px;
+	margin-bottom:3%;
+	padding-left:5%;
+	padding-right:5%;
+}
+#benefitc{
+	width:33%;	
+	display:inline-block;
+	font-family:"Times new roman",verdana;
+	text-align:justify;
+	margin-left:14%;
+	margin-right:3%;
+	float:left;
+	font-size:120%;
+}
+#center{
+	text-align:center;
+	margin:0 auto;
+}
+#list{
+	display:inline-block;
+	width:40%;
+	float:left;
+	margin-left:10%;
+	padding-right:5%;
+	position:relative;
+	top:-30px;
+	left:-5%;
+}
+#benefitinside{
+	border:solid 10px #ffe827;
+}	
+#try{
+	position:relative;
+	left:10%;
+	top:22px;
+	font-size:150%;
+	background:#fff;
+	padding:1%;
+}
+#benefitinside ul{
+	margin-top:3%;
+}
+#benefitinside li{
+	list-style-image: url(images/box.svg);
+	-webkit-text-stroke-width: 0.5px;
+}
+#benefit{
+	margin-bottom:28%;	
+}
+#choose{
+	background-image:url('images/choose.png');
+	background-size:100vw;
+	text-align:center;
+	background-repeat:no-repeat;
+	height:100vh;
+	margin-left:5%;
+	margin-right:5%;
+}
+#chooseh{
+	font-family:"Trebuchet MS",verdana;
+	font-size:300%;
+	-webkit-text-stroke-width: 2px;
+	color:white;
+	margin:0 auto;
+	padding-top:5%;
+	margin-bottom:9%;
+}	
+.chooseh1{
+	color:#ffe827;
+	font-family:"Trebuchet MS",verdana;
+	font-size:300%;
+	-webkit-text-stroke-width: 2px;
+}
+.chooseh2{
+	color:#fff;
+	font-family:"Trebuchet MS",verdana;
+	font-size:150%;
+	-webkit-text-stroke-width: 1px;
+}
+
+.partof3{
+	display:inline-block;
+	width:25%;
+	margin-bottom:10%;
+}
+#choose #quote{
+	margin:0 auto;
+	font-size:110%;
+	-webkit-text-stroke-width: 0.7px;
+}
+@media screen and (max-width: 768px) {
+.comppart{
+	width:100%;
+	text-align:center;
+	float:left;
+	margin-left:4.7%;
+	margin-top:4%;
+}
+.card{
+	
+	boreder:solid 20px #fff;
+	text-align:center;
+	float:left;
+}
+.cardt{
+	margin:0 auto;
+	text-align:center;	
+	margin-bottom:4%;
+	float:left;
+}
+#lowermargin{
+	margin-bottom:8%;
+}
+#look{
+	width:100%;
+	margin:0 auto;
+	margin-left:5%;
+	margin-bottom:5%;
+}
+#lookm{
+	font-size:200%;
+	-webkit-text-stroke-width: 1px;
+}
+#look #quote,#call,#lookm{
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	margin-top:2%;
+}
+#dark{
+	width:100%;
+}
+#benefitc{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+}
+}

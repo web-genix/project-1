@@ -515,7 +515,7 @@ label span {
     vertical-align: middle;
     text-align: center;
     width: 50%;
-    margin-left: 320px;
+    margin-left:320px;
     margin-bottom: 30px;
 }
 
@@ -732,28 +732,30 @@ footer .copyright {
         display: block;
         width: 100%;
     }
-    #choose {
+    #choose {	
+	text-align: center;
+	background-size:140%;
 	margin-left:5%;
         margin-top: 650px;
         text-align: center;
         width: 100%;
     }
     #chooseh {
-        font-size: 100%;
-        -webkit-text-stroke-width: 0.8px;
-        margin-bottom: 2%;
+        font-size: 110%;
+        -webkit-text-stroke-width: 0.4px;
+        margin-bottom: 6%;
     }
     .partof3 {
         width: 30%;
-        margin-bottom: 2.5%;
+        margin-bottom: 8.5%;
     }
     .chooseh1 {
-        font-size: 90%;
+        font-size: 110%;
         -webkit-text-stroke-width: 0.1px;
         margin-bottom: 0%;
     }
     .chooseh2 {
-        font-size: 70%;
+        font-size: 90%;
         -webkit-text-stroke-width: 0.1px;
     }
     #choose #quote {

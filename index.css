@@ -623,7 +623,6 @@ footer .copyright {
         display: none;
         width: 12px;
         height: 12px;
-    }
     .comppart {
         width: 100%;
         text-align: center;
@@ -749,11 +748,11 @@ footer .copyright {
     #chooseh {
         font-size: 120%;
         -webkit-text-stroke-width: 0.8px;
-        margin-bottom: 9%;
+        margin-bottom: 4%;
     }
     .partof3 {
         width: 30%;
-        margin-bottom: 8%;
+        margin-bottom: 2%;
     }
     .chooseh1 {
         font-size: 120%;
@@ -768,13 +767,6 @@ footer .copyright {
         ;
     }
     .feedback {
-        /* font-size: 90%;
-        overflow-x: hidden;
-        align-content: center;
-        padding-top: 100px;
-        height: 400px;
-        text-align: center;
-        width: 100%; */
         padding-top: 0%;
         position: relative;
         top: -20%;
@@ -824,19 +816,6 @@ footer .copyright {
         color: #ffe827;
         cursor: pointer;
     }
-    /* footer .quick-links {
-        justify-content: center;
-    } */
-    /* footer .company-info {
-        margin: 5px;
-        margin-right: 30px;
-    } */
-    /* footer .our-services {
-        margin: 5px;
-    } */
-    /* footer li {
-        list-style: none;
-    } */
     footer button {
         background: transparent;
         /* vertical-align: top; */

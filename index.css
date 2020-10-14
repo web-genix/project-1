@@ -265,7 +265,7 @@ label span {
 }
 
 .cardh:hover {
-    color:#c9f70c;
+    color: #c9f70c;
     -webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
     -ms-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
     transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
@@ -470,7 +470,7 @@ label span {
     z-index: 1;
     align-self: center;
     box-sizing: border-box;
-    background-color: #ffe827;
+    background-color: #c9f70c;
     vertical-align: middle;
     align-items: center;
     width: 50%;
@@ -505,12 +505,13 @@ label span {
 
 .cost-details button {
     margin: 25px;
-    color: #000000;
+    color: #c9f70c;
+    background-color: #000;
 }
 
 .cost-details button:hover {
-    color: #ffe827;
-    background-color: #000;
+    color: #000;
+    background: transparent
 }
 
 .feedback {
@@ -520,7 +521,7 @@ label span {
     height: 400px;
     vertical-align: middle;
     text-align: center;
-    width: 45%;
+    width: 50%;
     margin-left: 350px;
     margin-bottom: 30px;
 }
@@ -601,6 +602,16 @@ footer button:hover {
     color: #000;
 }
 
+footer .social-media {
+    margin-left: 85%;
+    margin-top: 10px;
+}
+
+footer img {
+    height: 25px;
+    width: 25px;
+}
+
 footer .copyright {
     color: gray;
     font-size: 100%;
@@ -609,12 +620,12 @@ footer .copyright {
 }
 
 @media screen and (max-width: 768px) {
-    body{
-	padding:0;
-	margin:0;
+    body {
+        padding: 0;
+        margin: 0;
     }
-    #Title{
-        margin-right:2%;
+    #Title {
+        margin-right: 2%;
     }
     #main1 {
         margin-top: 0%;
@@ -665,8 +676,8 @@ footer .copyright {
         width: 100%;
         text-align: center;
         float: left;
-	margin-left:0;
-	margin-right:0;
+        margin-left: 0;
+        margin-right: 0;
         margin-top: 4%;
     }
     .card {
@@ -705,11 +716,11 @@ footer .copyright {
         text-align: center;
         margin-top: 2%;
     }
-    #benefit{
-	width:100%;
+    #benefit {
+        width: 100%;
     }
     #benefith {
-        text-align:center;
+        text-align: center;
         font-size: 200%;
     }
     #benefitc {
@@ -720,7 +731,6 @@ footer .copyright {
     #list {
         display: block;
         width: 100%;
-	
     }
     #choose {
         margin-top: 650px;
@@ -739,7 +749,7 @@ footer .copyright {
     .chooseh1 {
         font-size: 90%;
         -webkit-text-stroke-width: 0.1px;
-	margin-bottom: 0%;
+        margin-bottom: 0%;
     }
     .chooseh2 {
         font-size: 70%;
@@ -750,13 +760,13 @@ footer .copyright {
         -webkit-text-stroke-width: 0.1px;
     }
     .calculator {
-        margin-left: 7%;
+        margin-left: 20%;
         align-self: center;
         font-size: 80%;
         position: absolute;
-        top: 410%;
+        bottom: -450%;
         border: 0;
-        height: 490px;
+        height: 350px;
     }
     /* .calculator .grey {
         z-index: -1;
@@ -766,18 +776,18 @@ footer .copyright {
         top: -50%;
     } */
     .calculator h3 {
-        margin: 30px;
-        padding-top: 20px;
+        font-size: 90%;
+        margin: 20px;
         text-align: center;
     }
     .calculator h3 img {
-        height: 50px;
+        height: 30px;
     }
     .cost-details {
         z-index: 1;
         align-self: center;
         box-sizing: border-box;
-        background-color: #ffe827;
+        background-color: #c9f70c;
         vertical-align: middle;
         align-items: center;
         width: 70%;
@@ -800,17 +810,19 @@ footer .copyright {
         display: inline-block;
     }
     .cost-details img {
+        display: none;
         opacity: 0.3;
         height: 50px;
         width: 50px;
     }
     .cost-details button {
         margin: 25px;
-        color: #000000;
+        color: #c9f70c;
+        background-color: #000;
     }
     .cost-details button:hover {
-        color: #ffe827;
-        background-color: #000;
+        color: #000;
+        background: transparent;
     }
     .feedback {
         overflow-x: hidden;
@@ -855,7 +867,7 @@ footer .copyright {
         font-size: 70%;
         overflow-x: hidden;
         padding-top: 10px;
-        height: 580px;
+        height: 610px;
     }
     footer .company-name {
         vertical-align: top;
@@ -885,5 +897,12 @@ footer .copyright {
         font-size: 100%;
         margin-left: 35px;
         margin-top: 25px;
+    }
+    footer .social-media {
+        align-self: center;
+    }
+    footer img {
+        height: 5px;
+        width: 5px;
     }
 }

@@ -510,12 +510,12 @@ label span {
 .feedback {
     overflow-x: hidden;
     align-content: center;
-    padding-top: 100px;
+    padding-top: 80px;
     height: 400px;
     vertical-align: middle;
     text-align: center;
     width: 50%;
-    margin-left: 350px;
+    margin-left: 320px;
     margin-bottom: 30px;
 }
 

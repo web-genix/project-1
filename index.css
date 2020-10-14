@@ -653,12 +653,6 @@ label span {
     color: #6ba32d;
     padding: 7px;
 }
-#backquote{
-	opacity:0.3;
-	margin:0 auto;
-	text-align:center;
-	width:15%;
-}
 footer {
     background-color: #000;
     color: #ffffff;

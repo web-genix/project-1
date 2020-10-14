@@ -441,7 +441,7 @@ label span {
 .partof3 {
     display: inline-block;
     width: 25%;
-    margin-bottom: 6%;
+    margin-bottom: 5%;
 }
 
 #choose #quote {
@@ -755,7 +755,7 @@ footer .copyright {
         margin-bottom: 0%;
     }
     .chooseh2 {
-        font-size: 100%;
+        font-size: 80%;
         -webkit-text-stroke-width: 0.1px;
     }
     #choose #quote {

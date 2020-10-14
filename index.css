@@ -89,9 +89,10 @@ body {
 
 .container {
     position: relative;
-    width: 100%;
+    width: 113%;
     height: 90vh;
     user-select: none;
+    left: -6%;
 }
 
 .container .slide_img {
@@ -101,7 +102,7 @@ body {
 }
 
 .container .slide_img img {
-    width: 100%;
+    width: 113%;
     height: inherit;
 }
 
@@ -120,7 +121,7 @@ body {
 }
 
 .next {
-    right: 0;
+    right: -8%;
 }
 
 .prev {
@@ -153,6 +154,7 @@ label span {
 
 #nav_slide .dots {
     top: -5px;
+    left: 7%;
     width: 18px;
     height: 18px;
     margin: 0 4px;
@@ -441,7 +443,7 @@ label span {
 .partof3 {
     display: inline-block;
     width: 25%;
-    margin-bottom: 5%;
+    margin-bottom: 6%;
 }
 
 #choose #quote {
@@ -515,7 +517,7 @@ label span {
     vertical-align: middle;
     text-align: center;
     width: 50%;
-    margin-left:320px;
+    margin-left: 320px;
     margin-bottom: 30px;
 }
 
@@ -617,8 +619,8 @@ footer .copyright {
         padding: 0;
         margin: 0;
     }
-    #mynav{
-	width:110%;
+    #mynav {
+        width: 110%;
     }
     #Title {
         margin-right: 2%;
@@ -630,10 +632,9 @@ footer .copyright {
         font-size: 130%;
         font-weight: bold;
         color: #fff;
-        position: absolute;
-        /* top: 170px; */
-        left: 8%;
-        vertical-align: middle;
+        position: relative;
+        top: 120px;
+        left: 12%;
         text-align: center;
     }
     #main2 {
@@ -642,21 +643,38 @@ footer .copyright {
         font-size: 80%;
         color: #fff;
         position: relative;
-        /* top: 222px; */
+        top: 130px;
         font-weight: bold;
-        left: 8%;
+        left: 12%;
     }
     #get {
-        display: none;
+        font-size: 70%;
+        top: 200px;
+        left: 12%;
     }
     .container {
-        border: none;
+        position: relative;
+        width: 105%;
+        bottom: -10%;
+        user-select: none;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .container .slide_img {
+        position: absolute;
         width: 100%;
-        /* height: 0; */
-        padding-bottom: 55%;
+        height: 100%;
+    }
+    .container .slide_img img {
+        width: 105%;
+        height: inherit;
     }
     label span {
         font-size: 50pt;
+    }
+    .next {
+        right: -3%;
     }
     .prev,
     .next {
@@ -703,7 +721,7 @@ footer .copyright {
     }
     #look #quote {
         font-size: 70%;
-	text-align:center;
+        text-align: center;
         -webkit-text-stroke-width: 0.5px;
     }
     #look #quote,
@@ -714,17 +732,17 @@ footer .copyright {
         margin-top: 2%;
     }
     #benefit {
-	margin-left:2.8%;
+        margin-left: 2.8%;
         width: 100%;
     }
     #benefith {
-	margin-left:5%;
+        margin-left: 5%;
         text-align: center;
         font-size: 200%;
     }
     #benefitc {
         width: 80%;
-	margin-left:12.5%;
+        margin-left: 12.5%;
         text-align: center;
         margin-bottom: 8%;
     }
@@ -732,10 +750,10 @@ footer .copyright {
         display: block;
         width: 100%;
     }
-    #choose {	
-	text-align: center;
-	background-size:140%;
-	margin-left:5%;
+    #choose {
+        text-align: center;
+        background-size: 140%;
+        margin-left: 5%;
         margin-top: 650px;
         text-align: center;
         width: 100%;
@@ -755,7 +773,7 @@ footer .copyright {
         margin-bottom: 0%;
     }
     .chooseh2 {
-        font-size: 80%;
+        font-size: 90%;
         -webkit-text-stroke-width: 0.1px;
     }
     #choose #quote {
@@ -766,10 +784,10 @@ footer .copyright {
         font-size: 80%;
         position: relative;
         width: 110%;
-        top: -450px;
+        top: -320px;
         border: 0;
         background-color: rgba(244, 244, 244, .5);
-        height: 280px;
+        height: 360px;
     }
     .cost-calculator h3 {
         text-align: center;
@@ -821,7 +839,7 @@ footer .copyright {
         position: relative;
         overflow-x: hidden;
         padding-top: 0%;
-        top: -400px;
+        top: -210px;
         height: auto;
         align-items: center;
         margin: 0 auto;
@@ -842,7 +860,6 @@ footer .copyright {
     }
     footer {
         position: relative;
-        top: -250px;
         text-align: center;
         width: 110%;
         font-size: 80%;
@@ -862,12 +879,13 @@ footer .copyright {
     footer {
         font-size: 70%;
         overflow-x: hidden;
+        overflow-y: hidden;
         padding-top: 10px;
-        height: 620px;
+        height: 650px;
     }
     footer .company-name {
         vertical-align: top;
-	margin-left:1%;
+        margin-left: 1%;
     }
     footer .quick-links {
         font-size: 90%;

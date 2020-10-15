@@ -255,7 +255,7 @@ label span {
     background-color: #F1F1F1;
     margin-top: 7.14%;
     padding: 14.28%;
-    height:350px;
+    height: 350px;
 }
 
 .cardh {
@@ -365,21 +365,23 @@ label span {
     margin-right: 3%;
     float: left;
     font-size: 120%;
-	line-height:160%;
+    line-height: 160%;
 }
+
 #benefit .quote {
     background: #332727;
     color: #c9f70c;
-     font-family: "trebuchet MS", verdana;
+    font-family: "trebuchet MS", verdana;
     -webkit-text-stroke-width: 0.5px;
-    text-decoration:none;
+    text-decoration: none;
     font-size: 70%;
     padding: 3%;
     border: 0;
 }
-#benefit .quote:hover{
-	background: #c9f70c;
-   	color: #332727;	
+
+#benefit .quote:hover {
+    background: #c9f70c;
+    color: #332727;
 }
 
 #center {
@@ -397,9 +399,11 @@ label span {
     top: -30px;
     left: -5%;
 }
-#benefit li{
-	margin-top:1.6%;
+
+#benefit li {
+    margin-top: 1.6%;
 }
+
 #benefitinside {
     border: solid 10px #c9f70c;
 }
@@ -472,9 +476,8 @@ label span {
 
 .cost-calculator {
     /* border: 0; */
-    margin-top: 25px;
     background-color: rgba(244, 244, 244, .5);
-    height: 480px;
+    height: 520px;
 }
 
 .cost-calculator h3 {
@@ -485,6 +488,7 @@ label span {
 .cost-calculator h3 img {
     height: 70px;
     width: 70px;
+    margin-left: 30px;
 }
 
 .calculator {
@@ -493,17 +497,19 @@ label span {
     background-color: #c9f70c;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 60%;
     padding: 15px;
     border: 0;
-    margin-left: 25%;
-    height: 330px;
+    margin-left: 20%;
+    height: 380px;
 }
 
 .calculator input {
     border: 0;
     padding: 14px;
     margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     width: 200px;
 }
 
@@ -512,32 +518,33 @@ label span {
     margin-top: 45px;
 }
 
-
 .calculator div {
     display: inline-block;
 }
 
-.calculator .medicine-image {
+.calculator #medicine {
     display: inline-block;
-    /* margin-left: %; */
-    margin-top: 50px;
+    position: absolute;
+    margin-left: -22%;
+    margin-top: 3.5%;
 }
 
 .calculator img {
-    height: 70px;
-    width: 70px;
+    position: relative;
+    height: 180px;
+    width: 120px;
     opacity: 0.3;
 }
 
 .calculator button {
-    background-color: #000;
+    background: #332727;
     color: #c9f70c;
     margin: 0 auto;
     font-size: 110%;
+    text-align: center;
     -webkit-text-stroke-width: 0.2px;
     padding: 7px;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-top: 60%;
 }
 
 .calculator button:hover {
@@ -545,14 +552,19 @@ label span {
     color: #000;
 }
 
-.calculator .rupee span {
+.calculator #rupee {
+    display: inline-block;
+    position: absolute;
+    margin-right: -10%;
+    margin-left: 13%;
+    margin-top: 3%;
+    width: 126px;
+}
+
+.calculator img {
     position: relative;
-    margin-top: 250px;
-    height: 70px;
-    width: 70px;
-    font-size: 350%;
+    height: 200px;
     opacity: 0.3;
-    margin-left: 15px;
 }
 
 .feedback {
@@ -873,10 +885,10 @@ footer .copyright {
         font-size: 80%;
         position: relative;
         width: 100%;
-        top: -340px;
+        top: -400px;
         border: 0;
         background-color: rgba(244, 244, 244, .5);
-        height: 360px;
+        height: 440px;
         margin-right: 0;
     }
     .cost-calculator h3 {
@@ -905,13 +917,15 @@ footer .copyright {
         margin-left: 0;
         margin-right: 0;
         margin-top: 20px;
+        height: 300px;
     }
     .calculator input {
         padding: 7px;
         margin-top: 10px;
     }
     .calculator h4 {
-        padding: 7px;
+        padding: 4px;
+        margin-top: 5px;
     }
     .calculator img {
         height: 50px;
@@ -919,16 +933,29 @@ footer .copyright {
         opacity: 0.3;
     }
     .calculator button {
-        background-color: #000;
+        background: #332727;
         color: #c9f70c;
-        margin: 15px;
+        margin: 30px;
     }
     .calculator button:hover {
         background: transparent;
         color: #000;
     }
-    .calculator span {
-        height: 40px;
+    .calculator #medicine {
+        margin-top: 12%;
+    }
+    .calculator #rupee {
+        display: inline-block;
+        position: absolute;
+        margin-right: -10%;
+        margin-left: 10%;
+        margin-top: 12%;
+        width: 50px;
+    }
+    .calculator img {
+        position: relative;
+        height: 50px;
+        opacity: 0.3;
     }
     .feedback {
         position: relative;

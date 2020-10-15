@@ -640,6 +640,9 @@ footer .copyright {
         top: 120px;
         left: 10%;
 	margin-right: 0;
+	width:80%;
+	margin-right: 0;
+	display:inline-block;
     }
     #main2 {
         z-index: 999;
@@ -651,6 +654,9 @@ footer .copyright {
         font-weight: bold;
         left: 10%;
 	margin-right: 0;
+	width:60%;
+	margin-right: 0;
+	display:inline-block;
     }
     #get {
         font-size: 70%;

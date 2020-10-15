@@ -475,6 +475,7 @@ label span {
     margin: 0 auto;
     font-size: 110%;
     -webkit-text-stroke-width: 0.2px;
+	margin-bottom:5%;
 }
 
 .cost-calculator {

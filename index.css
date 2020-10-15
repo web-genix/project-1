@@ -45,13 +45,18 @@ body {
     z-index: 999;
     background-color: transparent;
     position: absolute;
-    top: 290px;
+    top: 330px;
     border-radius: 10px;
     border: solid 3px #fff;
     color: white;
     left: 7%;
     font-size: 120%;
 	  margin-left:8%;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:12px;
+	padding-right:12px;
+	 font-family: "Trebuchet MS";
 }
 
 #get:hover {
@@ -68,14 +73,15 @@ body {
 
 #main1 {
     z-index: 999;
-    font-family: "Times new roman";
+     font-family: "Trebuchet MS";
     font-size: 260%;
     font-weight: bold;
     color: #fff;
     position: absolute;
-    top: 170px;
+    top: 200px;
     left: 8%;
     margin-left:7%;
+	
 }
 
 #main2 {
@@ -84,7 +90,7 @@ body {
     font-size: 180%;
     color: #fff;
     position: absolute;
-    top: 222px;
+    top: 262px;
     font-weight: bold;
     left: 8%;
       margin-left:7%;
@@ -720,7 +726,7 @@ footer .copyright {
     #get {
         font-size: 70%;
         top: 200px;
-        left: 10%;
+        left: 8%;
         margin-right: 0;
     }
     .hello {
@@ -897,7 +903,7 @@ footer .copyright {
         text-align: center;
         /* margin: 10px; */
         font-size: 120%;
-	padding-top:4%;
+	padding-top:1%;
         margin-right: 0;
     }
     .cost-calculator h3 img {
@@ -964,7 +970,7 @@ footer .copyright {
         position: relative;
         overflow-x: hidden;
         padding-top: 0%;
-        top: -260px;
+        top: -380px;
         height: auto;
         align-items: center;
         margin: 0 auto;
@@ -990,6 +996,7 @@ footer .copyright {
     }
     footer {
         position: relative;
+	top:-250px;
         text-align: center;
         width: 100%;
         font-size: 80%;
@@ -998,6 +1005,7 @@ footer .copyright {
         color: #ffffff;
         margin-right: 0;
     }
+ 
     footer h4,
     h2 {
         color: #c0ec83;

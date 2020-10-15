@@ -453,12 +453,14 @@ label span {
 }
 
 .cost-calculator {
-    border: 0;
+    /* border: 0; */
+    margin-top: 25px;
     background-color: rgba(244, 244, 244, .5);
-    height: 370px;
+    height: 480px;
 }
 
 .cost-calculator h3 {
+    margin-top: 15px;
     text-align: center;
 }
 
@@ -477,27 +479,51 @@ label span {
     padding: 15px;
     border: 0;
     margin-left: 25%;
+    height: 330px;
 }
 
 .calculator input {
-    padding: 7px;
-    margin: 15px;
+    border: 0;
+    padding: 14px;
+    margin: 10px;
+    width: 200px;
 }
 
 .calculator h4 {
-    padding: 15px;
+    padding: 5px;
+    margin-top: 45px;
+}
+
+.calculator h4 span {
+    border-width: 0px 0px 5px 0px;
+    border-color: #000;
+}
+
+.calculator div {
+    display: inline-block;
+}
+
+.calculator .medicine-image {
+    display: inline-block;
+    /* margin-left: %; */
+    margin-top: 50px;
 }
 
 .calculator img {
-    height: 30px;
-    width: 30px;
+    height: 70px;
+    width: 70px;
     opacity: 0.3;
 }
 
 .calculator button {
     background-color: #000;
     color: #c9f70c;
-    margin: 15px;
+    margin: 0 auto;
+    font-size: 110%;
+    -webkit-text-stroke-width: 0.2px;
+    padding: 7px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .calculator button:hover {
@@ -505,8 +531,14 @@ label span {
     color: #000;
 }
 
-.calculator span {
-    height: 25px;
+.calculator .rupee span {
+    position: relative;
+    margin-top: 250px;
+    height: 70px;
+    width: 70px;
+    font-size: 350%;
+    opacity: 0.3;
+    margin-left: 15px;
 }
 
 .feedback {
@@ -835,7 +867,7 @@ footer .copyright {
     }
     .cost-calculator h3 {
         text-align: center;
-        margin: 10px;
+        /* margin: 10px; */
         font-size: 105%;
         margin-right: 0;
     }
@@ -858,20 +890,18 @@ footer .copyright {
         border: 0;
         margin-left: 0;
         margin-right: 0;
-        margin-top: 45px;
+        margin-top: 20px;
     }
     .calculator input {
         padding: 7px;
-        margin-top: 710px;
-        margin-bottom: 7px;
-        margin: 0;
+        margin-top: 10px;
     }
     .calculator h4 {
         padding: 7px;
     }
     .calculator img {
-        height: 30px;
-        width: 30px;
+        height: 50px;
+        width: 50px;
         opacity: 0.3;
     }
     .calculator button {

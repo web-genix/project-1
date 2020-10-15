@@ -368,7 +368,6 @@ label span {
     margin-right: 3%;
     float: left;
     font-size: 120%;
-    line-height: 130%;
 }
 
 #benefit .quote {
@@ -871,13 +870,13 @@ footer .copyright {
     }
     .chooseh1 {
         font-size: 100%;
-        -webkit-text-stroke-width: 0.1px;
+        -webkit-text-stroke-width: 0.4px;
         margin-bottom: 0%;
         margin-right: 0%;
     }
     .chooseh2 {
-        font-size: 70%;
-        -webkit-text-stroke-width: 0.1px;
+        font-size: 80%;
+        -webkit-text-stroke-width: 0.3px;
     }
     #choose #quote {
         font-size: 65%;

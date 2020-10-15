@@ -51,12 +51,12 @@ body {
     color: white;
     left: 7%;
     font-size: 120%;
-	  margin-left:8%;
-	padding-top:6px;
-	padding-bottom:6px;
-	padding-left:12px;
-	padding-right:12px;
-	 font-family: "Trebuchet MS";
+    margin-left: 8%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: "Trebuchet MS";
 }
 
 #get:hover {
@@ -73,15 +73,14 @@ body {
 
 #main1 {
     z-index: 999;
-     font-family: "Trebuchet MS";
+    font-family: "Trebuchet MS";
     font-size: 260%;
     font-weight: bold;
     color: #fff;
     position: absolute;
     top: 200px;
     left: 8%;
-    margin-left:7%;
-	
+    margin-left: 7%;
 }
 
 #main2 {
@@ -93,7 +92,7 @@ body {
     top: 262px;
     font-weight: bold;
     left: 8%;
-      margin-left:7%;
+    margin-left: 7%;
 }
 
 .hello {
@@ -408,8 +407,6 @@ label span {
     left: -5%;
 }
 
-
-
 #benefitinside {
     border: solid 10px #c9f70c;
 }
@@ -483,12 +480,13 @@ label span {
 .cost-calculator {
     /* border: 0; */
     background-color: rgba(244, 244, 244, .5);
-    height: 520px;
-	margin-top:0;
+    height: 600px;
+    margin-top: -14%;
 }
 
 .cost-calculator h3 {
-    margin-top: 15px;
+    margin-top: 35px;
+    padding-top: 35px;
     text-align: center;
 }
 
@@ -499,6 +497,7 @@ label span {
 }
 
 .calculator {
+    overflow: hidden;
     text-align: center;
     box-sizing: border-box;
     background-color: #c9f70c;
@@ -533,7 +532,7 @@ label span {
     display: inline-block;
     position: absolute;
     margin-left: -22%;
-    margin-top: 3.5%;
+    margin-top: 3.3%;
 }
 
 .calculator img {
@@ -564,7 +563,7 @@ label span {
     position: absolute;
     margin-right: -10%;
     margin-left: 13%;
-    margin-top: 3%;
+    margin-top: 2.7%;
     width: 126px;
 }
 
@@ -850,7 +849,7 @@ footer .copyright {
         width: 90%;
         margin-right: 0;
         margin-left: 12.5%;
-	margin-bottom:50px;
+        margin-bottom: 50px;
     }
     #choose {
         text-align: center;
@@ -893,17 +892,17 @@ footer .copyright {
         font-size: 80%;
         position: relative;
         width: 100%;
-        top: -480px;
+        top: -390px;
         border: 0;
         background-color: rgba(244, 244, 244, .5);
-        height: 440px;
+        height: 500px;
         margin-right: 0;
     }
     .cost-calculator h3 {
         text-align: center;
         /* margin: 10px; */
-        font-size: 120%;
-	padding-top:1%;
+        font-size: 140%;
+        padding-top: 3%;
         margin-right: 0;
     }
     .cost-calculator h3 img {
@@ -925,7 +924,7 @@ footer .copyright {
         border: 0;
         margin-left: 0;
         margin-right: 0;
-        margin-top: 20px;
+        margin-top: 40px;
         height: 300px;
     }
     .calculator input {
@@ -934,7 +933,7 @@ footer .copyright {
     }
     .calculator h4 {
         padding: 4px;
-        margin-top: 5px;
+        margin-top: 10px;
     }
     .calculator img {
         height: 50px;
@@ -970,7 +969,7 @@ footer .copyright {
         position: relative;
         overflow-x: hidden;
         padding-top: 0%;
-        top: -380px;
+        top: -310px;
         height: auto;
         align-items: center;
         margin: 0 auto;
@@ -981,12 +980,12 @@ footer .copyright {
     .feedback h4 {
         color: #6ba32d;
         padding: 7px;
-	padding-top:20px;
+        padding-top: 20px;
         margin-right: 0;
     }
-    .feedback p{
-	line-height:240%;
-	padding-top:20px;
+    .feedback p {
+        line-height: 240%;
+        padding-top: 20px;
     }
     #backquote {
         opacity: 0.3;
@@ -996,7 +995,6 @@ footer .copyright {
     }
     footer {
         position: relative;
-	top:-250px;
         text-align: center;
         width: 100%;
         font-size: 80%;
@@ -1005,26 +1003,25 @@ footer .copyright {
         color: #ffffff;
         margin-right: 0;
     }
- 
     footer h4,
     h2 {
         color: #c0ec83;
-	margin-bottom:20px;
-	padding-top:20px;
+        margin-bottom: 20px;
+        padding-top: 50px;
     }
-
     footer div {
         width: 100%;
         margin: 0 auto;
         text-align: center;
         margin-right: 0;
+        padding-top: 3%;
     }
     footer {
         font-size: 70%;
         overflow-x: hidden;
         overflow-y: hidden;
         padding-top: 10px;
-        height: 700px;
+        height: 1000px;
         margin-right: 0;
     }
     footer .company-name {
@@ -1046,9 +1043,13 @@ footer .copyright {
         /* vertical-align: top; */
         margin: 5px;
         color: #c0ec83;
-        font-size: 110%;
+        font-size: 120%;
         font-weight: bold;
         border: 0;
+        margin-top: 50px;
+        position: absolute;
+        margin-left: 33%;
+        text-align: center;
     }
     footer button:hover {
         background-color: #c9f70c;
@@ -1058,15 +1059,23 @@ footer .copyright {
         color: gray;
         font-size: 100%;
         text-align: center;
-        margin-top: 25px;
+        margin-top: 100px;
         margin-left: 0;
         margin-right: 0;
+        vertical-align: bottom;
     }
     /* footer .social-media {
+        display: none;
         align-self: center;
-    } */
+        margin-left: -30%;
+        margin-top: 0%;
+    }
+    footer .social-media img {
+        height: 30px;
+        width: 30px;
+    }
     footer img {
         height: 5px;
         width: 5px;
-    }
+    } */
 }

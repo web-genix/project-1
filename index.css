@@ -370,6 +370,7 @@ label span {
 #benefit .quote {
     background: #332727;
     color: #c9f70c;
+     font-family: "trebuchet MS", verdana;
     -webkit-text-stroke-width: 0.5px;
     text-decoration:none;
     font-size: 70%;
@@ -397,7 +398,7 @@ label span {
     left: -5%;
 }
 #benefit li{
-	margin-top:1%;
+	margin-top:1.6%;
 }
 #benefitinside {
     border: solid 10px #c9f70c;

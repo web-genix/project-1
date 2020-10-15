@@ -658,8 +658,9 @@ footer .copyright {
         bottom: -10%;
         user-select: none;
         margin: 0 auto;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         margin-left: 5px;
+	margin-top: -50px;
     }
     .container .slide_img {
         position: absolute;

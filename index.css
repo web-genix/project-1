@@ -162,7 +162,7 @@ label span {
 
 #nav_slide .dots {
     top: -5px;
-    left: 2%;
+    left: 0%;
     width: 18px;
     height: 18px;
     margin: 0 4px;
@@ -481,7 +481,7 @@ label span {
     /* border: 0; */
     background-color: rgba(244, 244, 244, .5);
     height: 600px;
-    margin-top: -14%;
+    margin-top: -10%;
 }
 
 .cost-calculator h3 {
@@ -870,7 +870,7 @@ footer .copyright {
     }
     .partof3 {
         width: 30%;
-        margin-bottom: 3%;
+        margin-bottom: 3.5%;
         margin-right: 0%;
     }
     .chooseh1 {

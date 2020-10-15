@@ -368,7 +368,7 @@ label span {
     margin-right: 3%;
     float: left;
     font-size: 120%;
-    line-height: 160%;
+    line-height: 130%;
 }
 
 #benefit .quote {
@@ -403,9 +403,7 @@ label span {
     left: -5%;
 }
 
-#benefit li {
-    margin-top: 1%;
-}
+
 
 #benefitinside {
     border: solid 10px #c9f70c;

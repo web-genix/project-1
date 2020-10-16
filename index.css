@@ -18,13 +18,20 @@ body {
     margin-right: 10px;
     font-style: oblique;
 }
-
+#white1 {
+    color: #fff;
+    font-family: "Trebuchet MS";
+    opacity: 1;
+    margin-right: 10px;
+    font-style: oblique;
+    align-content:right;
+}
 #Title {
     color: #fff;
     font-weight: bold;
     opacity: 1;
     font-size: 150%;
-    margin-right: 41%;
+
     margin-left: 2%;
     text-shadow: 2px 2px grey;
 }
@@ -497,7 +504,7 @@ label span {
     /* border: 0; */
     background-color: rgba(244, 244, 244, .5);
     height: 580px;
-    margin-top: 13.5%;
+    margin-top: 0%;
 }
 
 .cost-calculator h3 {
@@ -599,7 +606,9 @@ label span {
     width: 50%;
     margin-left: 25%;
     margin-bottom: 10px;
-    margin-top: 2%;
+    margin-top: 0%;
+    position:relative;
+    top:-45px;
 }
 
 .feedback h4 {

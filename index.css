@@ -286,25 +286,25 @@ label span {
     color: #c9f70c;
     margin-top: 32px;
     font-family: "Trebuchet MS", verdana;
-    position:relative;
+    position: relative;
     text-decoration: none;
     background: #332727;
     -webkit-text-stroke-width: 0.5px;
     padding: 4%;
     border: 0;
-    text-align:right;
+    text-align: right;
 }
 
 .arrow {
     margin-left: 5px;
     width: 5%;
-    color:white;
+    color: white;
 }
 
 .info:hover {
-    color:#332727 ;
-    background:#c9f70c;
-     text-decoration: none;
+    color: #332727;
+    background: #c9f70c;
+    text-decoration: none;
     -webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
     -ms-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
     transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
@@ -382,7 +382,7 @@ label span {
     margin-right: 3%;
     float: left;
     font-size: 120%;
-    line-height:170%;
+    line-height: 170%;
 }
 
 #benefit .quote {
@@ -416,8 +416,9 @@ label span {
     top: -30px;
     left: -5%;
 }
-#benefit li{
-    margin-bottom:1%;
+
+#benefit li {
+    margin-bottom: 1%;
 }
 
 #benefitinside {
@@ -489,14 +490,14 @@ label span {
     margin: 0 auto;
     font-size: 110%;
     -webkit-text-stroke-width: 0.2px;
-	margin-bottom:5%;
+    margin-bottom: 5%;
 }
 
 .cost-calculator {
     /* border: 0; */
     background-color: rgba(244, 244, 244, .5);
-    height: 600px;
-    margin-top: -3%;
+    height: 580px;
+    margin-top: 13.5%;
 }
 
 .cost-calculator h3 {
@@ -546,14 +547,14 @@ label span {
 .calculator #medicine {
     display: inline-block;
     position: absolute;
-    margin-left: -22%;
-    margin-top: 3.3%;
+    margin-left: -18%;
+    /* margin-top: 2.8%; */
 }
 
 .calculator img {
     position: relative;
-    height: 180px;
-    width: 120px;
+    height: 7%;
+    width: 7%;
     opacity: 0.3;
 }
 
@@ -578,8 +579,8 @@ label span {
     position: absolute;
     margin-right: -10%;
     margin-left: 13%;
-    margin-top: 2.7%;
-    width: 126px;
+    /* margin-top: 2.7%; */
+    width: 7%;
 }
 
 .calculator img {
@@ -597,7 +598,8 @@ label span {
     text-align: center;
     width: 50%;
     margin-left: 25%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 2%;
 }
 
 .feedback h4 {
@@ -908,7 +910,7 @@ footer .copyright {
         font-size: 80%;
         position: relative;
         width: 100%;
-        top: -390px;
+        top: -270px;
         border: 0;
         background-color: rgba(244, 244, 244, .5);
         height: 500px;
@@ -985,7 +987,7 @@ footer .copyright {
         position: relative;
         overflow-x: hidden;
         padding-top: 0%;
-        top: -310px;
+        top: -170px;
         height: auto;
         align-items: center;
         margin: 0 auto;

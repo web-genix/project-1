@@ -873,9 +873,9 @@ footer .copyright {
         background: url('images/choose1.png');
         background-repeat: no-repeat;
         background-position: 0px 55px;
-        background-size: 100%;
+        background-size: 110%;
         margin-left: 0%;
-        margin-top: 650px;
+        margin-top: 680px;
         text-align: center;
         width: 100%;
         margin-right: 0%;
@@ -885,11 +885,15 @@ footer .copyright {
         -webkit-text-stroke-width: 0.4px;
         margin-bottom: 2%;
         margin-right: 0%;
+	position:relative;
+	top:35px;
     }
     .partof3 {
         width: 30%;
         margin-bottom: 3.5%;
         margin-right: 0%;
+	position:relative;
+	top:40px;
     }
     .chooseh1 {
         font-size: 100%;
@@ -905,12 +909,14 @@ footer .copyright {
         font-size: 65%;
         -webkit-text-stroke-width: 0.1px;
         margin-right: 0;
+	position:relative;
+	top:40px;
     }
     .cost-calculator {
         font-size: 80%;
         position: relative;
         width: 100%;
-        top: -270px;
+        top: -290px;
         border: 0;
         background-color: rgba(244, 244, 244, .5);
         height: 500px;

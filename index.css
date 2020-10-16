@@ -18,20 +18,21 @@ body {
     margin-right: 10px;
     font-style: oblique;
 }
+
 #white1 {
     color: #fff;
     font-family: "Trebuchet MS";
     opacity: 1;
     margin-right: 10px;
     font-style: oblique;
-    align-content:right;
+    align-content: right;
 }
+
 #Title {
     color: #fff;
     font-weight: bold;
     opacity: 1;
     font-size: 150%;
-
     margin-left: 2%;
     text-shadow: 2px 2px grey;
 }
@@ -607,8 +608,8 @@ label span {
     margin-left: 25%;
     margin-bottom: 10px;
     margin-top: 0%;
-    position:relative;
-    top:-45px;
+    position: relative;
+    top: -45px;
 }
 
 .feedback h4 {
@@ -632,6 +633,7 @@ footer {
 footer h4,
 h2 {
     color: #c0ec83;
+    font-weight: bold;
 }
 
 footer div {
@@ -654,7 +656,7 @@ footer .quick-links {
 }
 
 footer .quick-links h6:hover {
-    color: #ffe827;
+    color: #c0ec83;
     cursor: pointer;
 }
 
@@ -677,7 +679,7 @@ button {
     vertical-align: top;
     margin: 5px;
     color: #c0ec83;
-    font-size: 110%;
+    font-size: 120%;
     border: 0;
     font-weight: bold;
 }
@@ -1047,6 +1049,7 @@ footer .copyright {
         color: #c0ec83;
         margin-bottom: 20px;
         padding-top: 50px;
+        font-weight: bold;
     }
     footer div {
         width: 100%;
@@ -1071,7 +1074,7 @@ footer .copyright {
         font-size: 90%;
     }
     footer .quick-links h6:hover {
-        color: #ffe827;
+        color: #c0ec83;
         cursor: pointer;
         margin-left: 0;
         margin-right: 0;
@@ -1085,10 +1088,9 @@ footer .copyright {
         font-size: 120%;
         font-weight: bold;
         border: 0;
-        margin-top: 50px;
-        position: absolute;
-        margin-left: 33%;
+        position: relative;
         text-align: center;
+        padding-top: 20px;
     }
     footer button:hover {
         background-color: #c9f70c;
@@ -1098,26 +1100,17 @@ footer .copyright {
         color: gray;
         font-size: 100%;
         text-align: center;
-        margin-top: 40%;
-        vertical-align: bottom;
+        /* margin-top: 40%; */
         position: relative;
-        margin-left: 7%;
+        /* margin-left: 7%;
+        margin-left: 35px; */
+        margin-top: 0 auto;
+        padding-top: 7%;
     }
     footer .social-media {
-        display: none;
+        width: 50%;
+        height: fit-content;
+        right: 58%;
+        top: 3%;
     }
-    /* footer .social-media {
-        display: none;
-        align-self: center;
-        margin-left: -30%;
-        margin-top: 0%;
-    }
-    footer .social-media img {
-        height: 30px;
-        width: 30px;
-    }
-    footer img {
-        height: 5px;
-        width: 5px;
-    } */
 }

@@ -656,7 +656,7 @@ footer .quick-links {
 }
 
 footer .quick-links h6:hover {
-    color: #c0ec83;
+    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -1074,7 +1074,7 @@ footer .copyright {
         font-size: 90%;
     }
     footer .quick-links h6:hover {
-        color: #c0ec83;
+        text-decoration: underline;
         cursor: pointer;
         margin-left: 0;
         margin-right: 0;
